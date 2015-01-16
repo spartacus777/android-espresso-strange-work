@@ -9,6 +9,7 @@ import android.support.test.internal.runner.lifecycle.ActivityLifecycleMonitorRe
 import android.support.test.runner.lifecycle.Stage;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.suitebuilder.annotation.LargeTest;
+import android.widget.EditText;
 
 import com.android.support.test.deps.guava.collect.Iterables;
 
@@ -27,11 +28,10 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<LoginActiv
     @Override
     public void setUp() throws Exception {
         super.setUp();
+        getActivity();
 
         idleRes = new CountingIdlingResource("server");
         Espresso.registerIdlingResources(idleRes);
-
-        getActivity();
     }
 
     public void testSample(){
@@ -46,19 +46,27 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<LoginActiv
 
 
         //if comment it works
-        Espresso.onView(ViewMatchers.withId(R.id.email)).perform(ViewActions.typeText("some shit"));
-        Espresso.onView(ViewMatchers.withId(R.id.password)).perform(ViewActions.typeText("123"));
+        final EditText email = (EditText) act.findViewById(R.id.email);
+        final EditText password = (EditText) act.findViewById(R.id.password);
+        getInstrumentation().runOnMainSync(new Runnable() {
+            public void run() {
+                email.setText("Engineer");
+                password.setText("2342");
+            }
+        });
 
+//        Espresso.onView(ViewMatchers.withId(R.id.email)).perform(ViewActions.typeText("some shit"));
+//        Espresso.onView(ViewMatchers.withId(R.id.password)).perform(ViewActions.typeText("123"));
 
         Espresso.closeSoftKeyboard();
-        Espresso.onView(ViewMatchers.withId(R.id.btnLogInSuka)).check(ViewAssertions.matches(ViewMatchers.isDisplayed()));
+        Espresso.onView(ViewMatchers.withId(R.id.btnLogIn)).check(ViewAssertions.matches(ViewMatchers.isDisplayed()));
 
-        Espresso.onView(ViewMatchers.withId(R.id.btnLogInSuka)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.btnLogIn)).perform(ViewActions.click());
         Espresso.onView(ViewMatchers.withId(R.id.secondActivityOpened)).check(ViewAssertions.matches(ViewMatchers.isDisplayed()));
         Espresso.pressBack();
 
         Espresso.closeSoftKeyboard();
-        Espresso.onView(ViewMatchers.withId(R.id.btnLogInSuka)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.btnLogIn)).perform(ViewActions.click());
     }
 
     Activity getCurrentActivity() {

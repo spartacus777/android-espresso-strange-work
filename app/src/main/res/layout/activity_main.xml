@@ -66,7 +66,7 @@
         android:paddingBottom="@dimen/dimen_big">
 
         <Button
-            android:id="@+id/btnLogInSuka"
+            android:id="@+id/btnLogIn"
             style="@style/WhiteBorderRoundCornersButton"
             android:layout_above="@+id/btnUseEmailToLogin"
             android:layout_marginLeft="@dimen/dimen_huge"

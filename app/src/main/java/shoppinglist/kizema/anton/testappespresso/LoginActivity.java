@@ -32,7 +32,7 @@ public class LoginActivity extends Activity {
         btnUseEmailToLogin.setVisibility(View.GONE);
         llPhone.setVisibility(View.GONE);
 
-        btnLogIn = (Button) findViewById(R.id.btnLogInSuka);
+        btnLogIn = (Button) findViewById(R.id.btnLogIn);
 
         initLoginHelper();
     }
@@ -65,7 +65,7 @@ public class LoginActivity extends Activity {
 
                 //done
                 Intent intent = new Intent(LoginActivity.this, SecondActivity.class);
-                startActivity(intent);
+                startActivityForResult(intent, 0);
             }
         };
     }
@@ -73,8 +73,13 @@ public class LoginActivity extends Activity {
 
     public void btnLogInSuka(View v) {
         performLogin();
+        //syncLogin();
     }
 
+    private void syncLogin() {
+        Intent intent = new Intent(LoginActivity.this, SecondActivity.class);
+        startActivity(intent);
+    }
 
     void performLogin() {
 
@@ -87,11 +92,10 @@ public class LoginActivity extends Activity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                loginHelper.login(emailParam, codeParam, phoneParam, passwordParam, false);
+                loginHelper.login(emailParam,codeParam,phoneParam,passwordParam,false);
             }
         }).start();
     }
-
 
     public void setUserHelper(Server helper){
         loginHelper = helper;
