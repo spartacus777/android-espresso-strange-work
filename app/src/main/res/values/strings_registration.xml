@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="LabelRegistration">Sign up to MeWe</string>
+    <string name="RegHintFirstName">First Name</string>
+    <string name="RegHintLastName">Last Name</string>
+    <string name="RegHintEmail">E-mail</string>
+    <string name="RegHintCountry">Country</string>
+    <string name="RegHintPhone">Phone number</string>
+    <string name="RegHintPassword">Password</string>
+    <string name="RegHintBirthday">Birthday</string>
+    <string name="RegHintGender">Gender</string>
+    <string name="AllowMeWeMembersFindMe">Allow MeWe members to find me.</string>
+    <string name="RegTermsOfService"><![CDATA["By clicking “Sign up” you agree to <u><b>MeWe Terms of Service.</b></u>"]]></string>
+
+    <!-- Errors -->
+    <string name="PasswordMustContain">Password must contain letters and digits with a minimum length of 8 characters.</string>
+    <string name="FirstNameRequired">First Name required</string>
+    <string name="LastNameRequired">Last Name required</string>
+    <string name="CountryCodeRequired">Country Code required</string>
+    <string name="PhoneNumberRequired">Phone Number required</string>
+    <string name="BirthdayRequired">Birthday required</string>
+    <string name="YourAreIneligible">Sorry - you are ineligible to register</string>
+    <string name="GenderInvalid">Invalid gender</string>
+
+    <!-- Valiation -->
+    <string name="IsPhoneCorrect">Is this phone number correct?</string>
+    <string name="RegValidationCorrectIt">Correct it</string>
+    <string name="RegValidationVerify">Verify</string>
+    <string name="EnterPhone">Welcome! To help you get the most out of MeWe, please add your phone number. This will help you connect with other MeWe members. Don’t worry - we’ll never share your number!</string>
+    <string name="AddPhoneNumber">Add phone number</string>
+    <string name="PleaseEnterPhone">Please enter your phone number</string>
+    <string name="PhoneEmptyOrShort">Phone number is empty or too short</string>
+    <string name="WrongCountryCode">Wrong country code</string>
+    <string name="PhoneRequired">Phone number required. In order to invite your friends please add your phone number</string>
+
+    <!-- Verification -->
+    <string name="EnterCode">Please enter the code we just sent to you</string>
+    <string name="WrongVerificationCode">Wrong verification code</string>
+
+    <!-- Photo upload -->
+    <string name="SkipForNow">Or skip this for now.</string>
+    <string name="ChangePicture">Change Picture</string>
+
+</resources>

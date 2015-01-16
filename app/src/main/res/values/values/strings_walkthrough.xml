@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="JoinPrivacyRevolution">Join Privacy Revolution</string>
+
+    <string name="BeFreeBeYou">Be free. Be you.</string>
+    <string name="SafetyShareAnything">Safely share anything with\nanyone or everyone.</string>
+
+    <string name="FriendsFamilyOthers">Friends. Family. Others</string>
+    <string name="EmbraceYourInterests">Embrace your interests by creating\nand sharing in groups.</string>
+
+    <string name="ShareWhatYouLove">Share what you love!</string>
+    <string name="ChatPhotosVideosAndMore">Chat, photos, videos, and more.</string>
+
+    <string name="PrivacyBillOfRights">Privacy Bill of Rights</string>
+    <string name="Privacy_1">You are the sole owner of your information and content.</string>
+    <string name="Privacy_2">We don\'t share your personal information with anyone.</string>
+    <string name="Privacy_3">You control your permissions, privacy, and who can access your content.</string>
+    <string name="Privacy_4">You control what others see in public searches.</string>
+    <string name="Privacy_5">We do not monitor your \"likes\" or your data.</string>
+    <string name="Privacy_6">We do not use facial recognition technology.</string>
+    <string name="Privacy_7">We do not use tracking cookies.</string>
+    <string name="Privacy_8">We do not spy on your contact list.</string>
+    <string name="Privacy_9">You have the right to delete your account and take your content any time.</string>
+
+</resources>

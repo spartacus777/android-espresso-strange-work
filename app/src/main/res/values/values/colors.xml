@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="colors">
+        <item>#098895</item>
+        <item>#2799bd</item>
+        <item>#a92790</item>
+        <item>#d40568</item>
+        <item>#db212b</item>
+        <item>#f57b22</item>
+        <item>#c3a218</item>
+        <item>#9cc437</item>
+        <item>#849f38</item>
+        <item>#368adb</item>
+        <item>#36c6db</item>
+        <item>#ab0705</item>
+        <item>#f56315</item>
+        <item>#e5ac09</item>
+        <item>#bbba0a</item>
+        <item>#a2d128</item>
+        <item>#2f9406</item>
+        <item>#097309</item>
+        <item>#065a08</item>
+        <item>#099943</item>
+        <item>#098765</item>
+        <item>#0860a0</item>
+        <item>#051e8f</item>
+        <item>#03025c</item>
+        <item>#020138</item>
+        <item>#220357</item>
+        <item>#83056d</item>
+        <item>#ea0ab0</item>
+        <item>#972d86</item>
+        <item>#c6c6c6</item>
+        <item>#959595</item>
+        <item>#626262</item>
+        <item>#e70405</item>
+        <item>#d60806</item>
+        <item>#eb540c</item>
+        <item>#c7900d</item>
+        <item>#d8d90c</item>
+        <item>#a8dd17</item>
+        <item>#39ac07</item>
+        <item>#0f920c</item>
+        <item>#06780a</item>
+        <item>#0d9b49</item>
+        <item>#08bd92</item>
+        <item>#09b1c0</item>
+        <item>#0970b6</item>
+        <item>#051677</item>
+        <item>#03026d</item>
+        <item>#02025b</item>
+        <item>#24045c</item>
+        <item>#a6058b</item>
+        <item>#c1068b</item>
+        <item>#913080</item>
+        <item>#9a879c</item>
+        <item>#a2a2a2</item>
+        <item>#6f6f6f</item>
+        <item>#3d3d3d</item>
+        <item>#a02237</item>
+    </string-array>
+
+    <!--Walkthrough -->
+    <color name="walkthrough_1">#146cad</color>
+    <color name="walkthrough_2">#4ea833</color>
+    <color name="walkthrough_3">#eb7e2e</color>
+    <color name="walkthrough_4">#ff4978</color>
+
+    <integer-array name="progressColors">
+        <item>@color/animation1</item>
+        <item>@color/animation2</item>
+        <item>@color/animation3</item>
+        <item>@color/animation4</item>
+        <item>@color/animation5</item>
+        <item>@color/animation6</item>
+        <item>@color/animation7</item>
+        <item>@color/animation8</item>
+    </integer-array>
+
+    <color name="animation1">#2799bd</color>
+    <color name="animation2">#a92790</color>
+    <color name="animation3">#d40568</color>
+    <color name="animation4">#db212b</color>
+    <color name="animation5">#f57b22</color>
+    <color name="animation6">#c3a218</color>
+    <color name="animation7">#9cc437</color>
+    <color name="animation8">#849f38</color>
+
+    <color name="shareButtonWrite">#009688</color>
+    <color name="shareButtonGallery">#ff9800</color>
+    <color name="shareButtonVoice">#e51c23</color>
+    <color name="shareButtonCamera">#3f51b5</color>
+    <color name="shareButtonVideo">#ffc107</color>
+
+    <color name="shareButtonWritePressed">#50009688</color>
+    <color name="shareButtonGalleryPressed">#50ff9800</color>
+    <color name="shareButtonVoicePressed">#50e51c23</color>
+    <color name="shareButtonCameraPressed">#503f51b5</color>
+    <color name="shareButtonVideoPressed">#50ffc107</color>
+
+    <color name="app_color">#1C89D8</color>
+    <color name="app_gray">#ADADAD</color>
+
+    <color name="shadow_color">#1C000000</color>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="text">#363636</color>
+    <color name="lighter_text">#808080</color>
+    <color name="separator">#cccccc</color>
+    <color name="attachment_background">#E8E8E8</color>
+    <color name="attachment_text">#797979</color>
+    <color name="additional_info_background">#e7e4dd</color>
+    <color name="thumbnail_background">#373737</color>
+    <color name="emoji_tab">#f6f6f6</color>
+    <color name="emoji_separator">#cfcfcf</color>
+    <color name="comment_background">#f2f2f2</color>
+    <color name="selected">#f3f1ee</color>
+    <color name="post_separator_strip">#bfbfbf</color>
+    <color name="photo_stream_background">#1e1e1e</color>
+    <color name="walgreens_background">#da1e37</color>
+    <color name="feedBackground">#EEEEEE</color>
+    <color name="saver">#50000000</color>
+    <color name="app_gradient_start">#3EA9F7</color>
+    <color name="app_gradient_end">#0A78C7</color>
+
+    <!-- Action bar colors -->
+    <color name="terms_of_service_bar">#00599c</color>
+    <color name="unvalidated_bar">#00599c</color>
+    <color name="login_bar">#00599c</color>
+    <color name="post_details_bar">#44749f</color>
+    <color name="news_stream">#415d72</color>
+
+    <!-- Separator colors -->
+    <color name="separator_light">#CFCFCF</color>
+
+    <!-- Popup colors -->
+    <color name="default_popup_background">#EFEFEF</color>
+
+    <!-- Edit text colors -->
+    <color name="hint_text_color_auth">#95FFFFFF</color>
+    <color name="hint_text_color">#D5D5D5</color>
+    <color name="text_color_bottom">#50FFFFFF</color>
+    <color name="edit_text_shape_color">#0098F6</color>
+    <color name="edit_text_cursor_color">#63C3F3</color>
+    <color name="edit_text_text_color">#6B6B6B</color>
+    <color name="edit_text_text_color_dark">#48484A</color>
+
+    <!-- Dialog colors -->
+    <color name="dialog_title">#4D4D4D</color>
+    <color name="dialog_text">#727272</color>
+    <color name="dialog_accept_button">#11A1F7</color>
+    <color name="dialog_button_pressed">#8CCFCDCF</color>
+
+    <!-- Button colors -->
+    <color name="button_green">#5DB342</color>
+    <color name="button_gray">#A5A5A5</color>
+    <color name="button_orange">#EEAF00</color>
+    <color name="button_white_gray">#C0C0C0</color>
+
+    <!-- pull refresh animation colors -->
+    <color name="refresh_color1">#2799bd</color>
+    <color name="refresh_color2">#d40568</color>
+    <color name="refresh_color3">#f57b22</color>
+    <color name="refresh_color4">#9cc437</color>
+
+    <!-- Notifications colors -->
+    <color name="notification_alert_red">#FF002F</color>
+
+    <!-- Button dark -->
+    <color name="button_dark_disabled">#23000000</color>
+    <color name="button_dark_pressed">#C8000000</color>
+    <color name="button_dark_focused">#96000000</color>
+    <color name="button_dark_normal">#80000000</color>
+
+    <!-- Controls colors -->
+    <color name="button_dark">#80000000</color>
+
+    <!-- App common colors. Use "http://chir.ag/projects/name-that-color" for naming -->
+    <color name="java">#27B8BD</color>
+
+    <!-- Chat -->
+    <color name="danube">#5D98C4</color>
+    <color name="gray">#DFDFDF</color>
+    <color name="message">#28FFFFFF</color>
+
+    <!-- Action bar default colors -->
+    <color name="group_creation_default">#098895</color>
+    <color name="feedback_bar_default">#2799bd</color>
+
+    <color name="selected_contact">#F3F1EE</color>
+
+    <!--Discussion -->
+    <color name="replier_name">#187000</color>
+    <color name="reply_item_background">#f3f1ee</color>
+
+    <color name="contactsInvitationButtons">#415D72</color>
+
+    <color name="little_pale_red">#C13636</color>
+    <color name="little_pale_green">#36AD36</color>
+
+    <color name="photo_loading_background">#e5e5e5</color>
+
+    <!-- Voice -->
+    <color name="voice_attachment_bg">#e6f4fd</color>
+    <color name="voice_red">#FD667A</color>
+    <color name="voice_chat_player_bg">#147fcf</color>
+
+</resources>

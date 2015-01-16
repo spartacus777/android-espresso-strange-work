@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ThreadNamePatternMultipleLeft">%1$s &amp; %2$d others</string>
+    <string name="ThreadNamePatternSingleLeft">%s &amp; 1 other</string>
+    <string name="ActiveChats">Active Chats</string>
+    <string name="ChatThreadsFTUE">Our chat is actually private. So feel free to share photos, voice messages and text, about anything you want.</string>
+    <string name="ChooseContacts">Choose Contacts</string>
+    <string name="ChatMessageHint">Message</string>
+    <string name="Group">GROUP</string>
+    <string name="CreateChat">Create chat</string>
+    <string name="NoMoreMessages">No more messages</string>
+    <string name="StartGroupChat">Start a group chat</string>
+    <string name="StartChatAnd" formatted="false">Start a chat with %s and %s</string>
+    <string name="StartChat" formatted="false">Start a chat with %s</string>
+    <string name="StartAChat">Start a Chat</string>
+    <string name="InvitePeopleToContactWith">Invite people to chat with</string>
+    <string name="ChatAlertEmptyMessage">Message cannot be empty</string>
+    <string name="SlideToCancel">Slide to cancel</string>
+    <string name="ReleaseToCancel">Release to cancel</string>
+    <string name="MessageNotSent">Message not sent</string>
+    <string name="emptyChatMessage">Whoa! You will be the first!\nPlease type your message</string>
+</resources>

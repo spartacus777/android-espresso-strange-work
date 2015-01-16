@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/transparent"/>
+    <item android:top="@dimen/dimen_mini"
+        android:bottom="@dimen/dimen_mini"
+        android:left="@dimen/dimen_mini"
+        android:right="@dimen/dimen_mini"
+        android:drawable="@drawable/btn_dialog_pressed_drawable"/>
+</layer-list>

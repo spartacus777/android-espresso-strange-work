@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activities -->
+    <style name="Theme.App.Activity.Splash" parent="@android:style/Theme.NoTitleBar" >
+        <item name="android:background">@drawable/splash_logo</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.App.Activity.Walkthrough" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.App.Activity.Auth" parent="@style/Theme.App">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_back_auth</item>
+        <item name="android:actionBarStyle">@style/Theme.App.Activity.ActionBar.Auth</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.App.Activity.Thumbnails" parent="@style/Theme.App">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@color/photo_stream_background</item>
+        <item name="android:colorBackground">@color/photo_stream_background</item>
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_back</item>
+        <item name="android:actionBarStyle">@style/Theme.App.Activity.ActionBar.Thumbnails</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+    </style>
+</resources>

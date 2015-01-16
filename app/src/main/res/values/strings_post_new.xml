@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ChosenPicture">"Chosen picture"</string>
+    <string name="ChosenVideo">"Chosen video"</string>
+    <string name="SelectGroupsToShare">Select Groups to share</string>
+    <string name="SelectedOneGroup">Selected 1 group</string>
+    <string name="SelectedSeveralGroups">Selected %1$s groups</string>
+    <string name="NewPostTitle">New Post</string>
+    <string name="PostVideoConfirmation">Your video will be uploaded and posted. Check status in notification panel</string>
+    <string name="PostingFailed">Sorry, problem during posting to MeWe.</string>
+    <string name="VideoPostSent">Your video is being processed.</string>
+    <string name="PostedConfirmation">Posted to MeWe</string>
+    <string name="ShareTitle">Uploading to MeWe.</string>
+    <string name="TypeYourMessageHere">Type your message here</string>
+    <string name="PostContentMissing">Please type your status or add a photo/video.</string>
+    <string name="PostNoGroupSelected">Please choose groups to share with.</string>
+    <string name="ShareWithAllContacts">Share with your MeWe Contacts</string>
+    <string name="ShareWithPrivateGroup">Share with a private group</string>
+    <string name="GoBackToEditPost">Or go back to edit your post</string>
+    <string name="postTo">Post to</string>
+    <string name="selectLinkThumbnail">Please select link image</string>
+
+    <string name="holdToRecord">Hold to record</string>
+    <string name="slideToCancel">Slide to cancel</string>
+    <string name="releaseToCancel">Release to cancel</string>
+
+</resources>

@@ -1,0 +1,315 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Main theme -->
+    <style name="Theme.App" parent="@android:style/Theme.Holo.Light">
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+
+        <item name="android:actionBarItemBackground">@drawable/app_selector</item>
+        <item name="android:actionBarStyle">@style/Theme.App.ActionBar</item>
+        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:actionButtonStyle">@style/Theme.App.ActionBar.ActionButton</item>
+        <item name="android:actionBarDivider">@null</item>
+
+        <!-- remove shadow below the action bar -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Controls -->
+        <item name="android:editTextStyle">@style/EditText.App</item>
+        <item name="android:autoCompleteTextViewStyle">@style/EditText.App</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+
+        <item name="android:background">@null</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="DropDownListViewStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <!-- Activities -->
+    <style name="Theme.App.Activity.Splash" parent="@android:style/Theme.NoTitleBar" >
+        <item name="android:background">@drawable/splash_logo</item>
+    </style>
+
+    <style name="Theme.App.Activity.Walkthrough" parent="@android:style/Theme.NoTitleBar" />
+
+    <style name="Theme.App.Activity.Auth" parent="@style/Theme.App">
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_back_auth</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/Theme.App.Activity.ActionBar.Auth</item>
+    </style>
+
+    <style name="Theme.App.Activity.PhotoStream" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.App.Activity.Thumbnails" parent="@style/Theme.App">
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_back</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/Theme.App.Activity.ActionBar.Thumbnails</item>
+    </style>
+
+    <style name="Theme.App.Activity.Walgreens" parent="@style/Theme.App.Activity.Thumbnails">
+        <item name="android:windowBackground">@color/walgreens_background</item>
+        <item name="android:colorBackground">@color/walgreens_background</item>
+    </style>
+
+    <style name="Theme.App.Activity.Transparent" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.App.Activity.Video" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+    </style>
+
+    <style name="Theme.App.Activity.Main" parent="@style/Theme.App">
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_menu</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Theme.App.Activity.Content" parent="@style/Theme.App">
+        <item name="android:homeAsUpIndicator">@drawable/ad_button_back</item>
+    </style>
+
+    <style name="Theme.App.Activity.ChatPhoto" parent="@android:style/Theme.Translucent.NoTitleBar">
+
+    </style>
+
+    <!-- Action bar style -->
+    <style name="Theme.App.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/Theme.App.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/Theme.App.ActionBar.SubTitle</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/app_color</item>
+
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Theme.App.Activity.ActionBar.Auth" parent="@style/Theme.App.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.App.ActionBar.Title.Login</item>
+    </style>
+
+    <style name="Theme.App.Activity.ActionBar.Thumbnails" parent="@style/Theme.App.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+
+        <item name="android:titleTextStyle">@style/Theme.App.ActionBar.Title.Thumbnails</item>
+    </style>
+
+    <style name="Theme.App.Activity.ActionBar.Transparent" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#00000000</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.App.ActionBar.Title.Login</item>
+    </style>
+
+    <style name="Theme.App.ActionBar.ActionButton" parent="@android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:minWidth">45dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.App.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="Theme.App.ActionBar.Title.Login" parent="@style/Theme.App.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.App.ActionBar.Title.Thumbnails" parent="@style/Theme.App.ActionBar.Title">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.App.ActionBar.SubTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Dialog styles -->
+    <style name="Dialog.Theme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_biggest</item>
+        <item name="android:textSize">@dimen/text_biggest</item>
+        <item name="android:textColor">@color/dialog_title</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textColor">@color/button_gray</item>
+    </style>
+
+    <style name="DialogAcceptButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:layout_height">@dimen/min_click_sub_area</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:paddingLeft">@dimen/dimen_big</item>
+        <item name="android:paddingRight">@dimen/dimen_big</item>
+        <item name="android:textColor">@color/dialog_accept_button</item>
+        <item name="rcb_fill_color_pressed">@color/dialog_button_pressed</item>
+        <item name="rcb_corner_radius">@dimen/dimen_mini</item>
+    </style>
+
+    <style name="DialogDeclineButton" parent="DialogAcceptButton">
+        <item name="android:textColor">@color/dialog_title</item>
+    </style>
+
+    <!-- Round Corners Button -->
+    <style name="RoundCornersButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/min_button_height</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="rcb_corner_radius">@dimen/dimen_mini</item>
+    </style>
+
+    <style name="WhiteBorderRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_stroke_color">@color/white</item>
+        <item name="rcb_stroke_width">1dp</item>
+    </style>
+
+    <style name="WhiteRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_fill_color">@color/white</item>
+    </style>
+
+    <style name="GrayRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_fill_color">@color/button_white_gray</item>
+    </style>
+
+    <style name="GrayBorderRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_stroke_width">1dp</item>
+        <item name="rcb_stroke_color">@color/button_gray</item>
+        <item name="android:textColor">@color/button_gray</item>
+    </style>
+
+    <style name="GreenRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_fill_color">@color/button_green</item>
+    </style>
+
+    <style name="OrangeRoundCornersButton" parent="RoundCornersButton">
+        <item name="rcb_fill_color">@color/button_orange</item>
+    </style>
+
+    <style name="AppColorBorderButton" parent="RoundCornersButton">
+        <item name="rcb_stroke_color">@color/app_color</item>
+        <item name="rcb_stroke_width">1dp</item>
+        <item name="android:textColor">@color/app_color</item>
+    </style>
+
+    <style name="AppColorFilledButton" parent="RoundCornersButton">
+        <item name="rcb_fill_color">@color/app_color</item>
+    </style>
+
+    <!-- Edit text -->
+    <style name="EditText.Auth" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/min_click_area</item>
+        <item name="android:ems">10</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/edit_text_auth</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/hint_text_color_auth</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:popupBackground">@drawable/dialog_notif</item>
+        <item name="android:listSelector">@drawable/btn_dialog</item>
+    </style>
+
+    <style name="EditText.App" parent="android:Widget.EditText">
+        <item name="android:layout_height">@dimen/min_click_sub_area</item>
+        <item name="android:background">@drawable/edit_text_app</item>
+        <item name="android:paddingTop">@dimen/dimen_little</item>
+        <item name="android:paddingBottom">@dimen/dimen_little</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_cursor</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textColor">@color/edit_text_text_color</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:popupBackground">@drawable/dialog_notif</item>
+        <item name="android:listSelector">@drawable/btn_dialog</item>
+    </style>
+
+    <style name="ContactsInvitingsTextViews">
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/lighter_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Theme.Activity.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="PopupWindow">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="DropDownDown">
+        <item name="@android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+
+    <style name="DropDownUp">
+        <item name="@android:windowEnterAnimation">@anim/grow_fade_in_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_fade_out_from_bottom</item>
+    </style>
+
+    <style name="EmojiTabButton">
+        <item name="@android:layout_width">match_parent</item>
+        <item name="@android:layout_height">match_parent</item>
+        <item name="@android:layout_weight">1</item>
+        <item name="@android:text">""</item>
+        <item name="@android:textOn">""</item>
+        <item name="@android:textOff">""</item>
+    </style>
+
+    <style name="Post">
+        <item name="android:paddingLeft">@dimen/dimen_small</item>
+        <item name="android:paddingRight">@dimen/dimen_small</item>
+    </style>
+
+    <style name="PostHeader">
+        <item name="android:paddingTop">@dimen/dimen_above</item>
+        <item name="android:paddingLeft">@dimen/dimen_above</item>
+        <item name="android:paddingBottom">@dimen/dimen_small</item>
+        <item name="android:background">@drawable/bg_post_header</item>
+    </style>
+
+    <style name="EmailSearchEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/min_click_area</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/dimen_above</item>
+        <item name="android:background">@drawable/tv_border_round_conrners</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:hint">@string/Search</item>
+        <item name="android:paddingLeft">@dimen/dimen_above</item>
+        <item name="android:paddingRight">@dimen/dimen_above</item>
+    </style>
+
+</resources>

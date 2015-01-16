@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeWe</string>
+    <string name="joinPrivacyRevolution">Join privacy revolution</string>
+
+    <!-- Internet errors -->
+    <string name="SorryNoInternet">We\'re sorry, probably you are not connected to the Internet</string>
+
+    <!-- Auth -->
+    <string name="SighUp">Sign up</string>
+    <string name="LogIn">Log in</string>
+    <string name="LogInEmail">Log in with Email</string>
+
+    <!-- Auth fields -->
+    <string name="AuthEmail">Email</string>
+    <string name="AuthPassword">Password</string>
+
+    <!-- Auth errors -->
+    <string name="EmailAddressInvalid">Email Address is invalid</string>
+    <string name="PasswordInvalid">Invalid old password. Password must contain letters and digits with a minimum length of 8 characters.</string>
+    <string name="NewPasswordInvalid">Invalid new password. Password must contain letters and digits with a minimum length of 8 characters.</string>
+    <string name="NewPasswordDoesNotMatch">New password does not match the confirm password</string>
+
+    <!-- Group actions -->
+    <string name="GroupSettings">Group Settings</string>
+
+    <!-- Global error -->
+    <string name="UploadFailed">Uploading failed</string>
+
+    <!-- FTUE -->
+    <string name="WelcomeToMW">Welcome to My World, %s!</string>
+    <string name="WelcomeToMC">Welcome to My Cloud, %s!</string>
+    <string name="YouMadeYourFirstPost">You\'ve made your first post!\n Now invite people to see it.</string>
+
+    <!-- Media picker strings -->
+    <string name="TakePhoto">Take photo</string>
+    <string name="TakePhotoOrVideo">Take photo\nor video</string>
+    <string name="ChooseFromLibrary">Choose from\nlibrary</string>
+    <string name="Members">Members</string>
+    <string name="Discussions">Discussions</string>
+
+    <!-- Global actions -->
+    <string name="Comment">Comment</string>
+    <string name="Ok">OK</string>
+    <string name="Done">DONE</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="Change">CHANGE</string>
+    <string name="Next">Next</string>
+    <string name="Send">Send</string>
+    <string name="CreateGroup">Create Group</string>
+    <string name="CreateANewGroup">Create\ngroup</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="loading">Loading</string>
+    <string name="Like">Like</string>
+    <string name="Love">Love</string>
+    <string name="CreatePost">Create post</string>
+    <string name="WritePost">Write a post</string>
+    <string name="Back">Back</string>
+    <string name="InviteMembers">Invite Members</string>
+    <string name="AddContact">Add contact</string>
+
+    <!-- Dialog -->
+    <string name="Warning">Warning</string>
+
+    <!-- Group creation activity -->
+    <string name="GroupMissingName">Group couldn\'t be created - please insert group name and try again.</string>
+    <string name="GroupNameTooLong">Group couldn\'t be created - your group name exceed length. Provide shorter group name and try again.</string>
+    <string name="GroupUrlTaken">Group couldn\'t be created - group url is taken. Please click Create button once more - new url will be generated for you.</string>
+    <string name="GroupCreationFail">Group couldn\'t be created - please try again in a moment.</string>
+    <string name="GroupNameOnly">Group name is the only required field!</string>
+    <string name="GroupCantAddPicture">Sorry, you can\'t add this picture.</string>
+    <string name="GroupWelcomeFormattedText">Hello %s</string>
+    <string name="GroupWelcomeFormattedTextWithColor"><![CDATA["Welcome to <b><font color=#%1$s>%2$s</font></b> Group!"]]></string>
+    <string name="AddMembersNow">Add members now</string>
+    <string name="GroupNameHint">Please enter Group name</string>
+    <string name="Birthday">"Birthday"</string>
+    <string name="Loading">Loading…</string>
+    <string name="EventDateFormat">MMMMM dd, yyyy \'at\' hh:mm aaa</string>
+
+    <!-- Notification messages -->
+    <string name="GroupInvitation">Comments</string>
+    <string name="NoInternetConnection">You\'re offline, check your network status.</string>
+    <string name="newGroupPostsPn">New group posts</string>
+    <string name="newPostCommentsPn">New post comments</string>
+    <string name="newChatMessagesPn">New chat messages</string>
+
+    <!-- activity_photo_stream -->
+    <string name="GroupLabel">%s Photo Stream</string>
+    <string name="WhatsNewLabel">My World Photo Stream</string>
+    <string name="YourCart">Your Cart</string>
+    <string name="MyCloudLabel">My Cloud Photo Stream</string>
+    <string name="PrintProblem">Cannot send order, please try again later…</string>
+    <string name="WalgreensTitle">Print to Walgreens</string>
+    <string name="GoToCart">Go to Cart</string>
+    <string name="AddToCart">Add to Cart</string>
+    <string name="RemoveFromCart">Remove from Cart</string>
+    <string name="PhotoPosition">%1$s of %2$s</string>
+    <string name="PrintSuccess">Your pictures were sent to Walgreens, We will send you email (%s) with link, use it to continue your order</string>
+    <string name="walgreensUploading">Files are uploading to Walgreens, please don\'t close the app</string>
+    <string name="Sending">Sending…</string>
+    <string name="PrintingCountLimit">You can print only 30 pictures in one order</string>
+    <string name="PrintingCartEmpty">Please select some pictures to print</string>
+    <string name="CleanCart">Do you want to empty cart?</string>
+    <string name="OrderFailed">"Problem with order: "</string>
+    <string name="IncorrectMime">You can print only .jpg and .png in Walgreens</string>
+    <string name="Downloaded">Successfully downloaded</string>
+    <string name="addMorePhotos">Add more Photos</string>
+    <string name="printToWalgreens">Print to Walgreens</string>
+
+    <!-- group_feed -->
+    <string name="AcceptGroupInvitation">Join\ngroup</string>
+    <string name="DismissGroupIntvitations">Dismiss\ninvitation</string>
+    <string name="ClickToInvite">Click the link below to invite people\nto your group so you can stay connected.</string>
+    <string name="NoMorePosts">No more posts</string>
+
+    <!-- group_creation -->
+    <string name="CouldNotCreateGroupErrorCode">Couldn\'t create group because of error code: %s</string>
+    <string name="CouldNotCreateGroupResponseNull">Couldn\'t create group - response is null</string>
+    <string name="CouldNotCreateGroupTryAgain">There was a problem with Group Creation, please try again.</string>
+    <string name="includeGroupToPublicDirectory">Include this group in the MeWe directory?</string>
+    <string name="groupNeedApprove">You get to approve members who apply to join</string>
+    <string name="groupDoesNotNeedApprove">Any MeWe member can join</string>
+
+    <!-- group_settings -->
+    <string name="CouldNotUpdateGroup" formatted="false">Couldn\'t update group.</string>
+    <string name="GroupSettingsSubTitle">"Group Settings"</string>
+    <string name="LoveLikeOption">Do Group Members \'Love\' or \'Like\' things</string>
+    <string name="editPublicLink">Edit your group public link</string>
+    <string name="takenPublicLink">This link is already taken, you can try this:</string>
+    <string name="invalidPublicLink">This link is invalid, you can try this:</string>
+    <string name="updatingLinkFailed">Cannot update group public link</string>
+    <string name="emptyPublicLink">Link cannot be blank</string>
+
+    <!-- contacts -->
+    <string name="emptyContactList">Your Contact List is Empty. \nInvite your Friends and Family to start using MeWe, so you can share with them easily and privately!</string>
+    <string name="emptyInvitedContactList">Your invited Contact List is Empty. \nInvite your Friends and Family to start using MeWe, so you can share with them easily and privately!</string>
+    <string name="emptyContactRequestList">Your Contact request List is Empty. \nInvite your Friends and Family to start using MeWe, so you can share with them easily and privately!</string>
+    <string name="InvitePeopleButton">Invite People</string>
+    <string name="HoldToMulti">Hold on contact to select multiple contacts.</string>
+    <string name="BlockingText">When you block someone, you will not see their posts in any groups you are together, and they will not see your posts. They will also not be able to send you privacy mail, and you will not be able to message them either. You will no longer see this member in My Contacts, and their name will appear in a special "Blocked" list in case you change your mind. You can access this list in option menu.</string>
+    <string name="ContactRequestText">" wants to be in Your Contacts"</string>
+    <string name="MultiContactRequest">" people want to be in Your Contacts"</string>
+    <string name="AddToGroup">"Add To Group"</string>
+    <string name="BlockUser">"Block User"</string>
+    <string name="BlockedContacts">"Blocked Contacts"</string>
+    <string name="Contacts">"Contacts"</string>
+    <string name="InvitedContacts">"Invited Contacts"</string>
+    <string name="MyContactsTitle">My Contacts</string>
+    <string name="NoContacts">"No contacts"</string>
+    <string name="OneContact">"1 contact"</string>
+    <string name="SeveralContacts">"%1$s contacts"</string>
+    <string name="YouWillAddContacts">"You will add %1$s contacts to group %2$s"</string>
+    <string name="YouAreTryingToBlockMemberOfYourGroup">"You are trying to block %1$s, but you are the group owner of %2$s. Group members may not block the owner, but this also means that you, as the owner, may not block them. Would you like to remove this member from your group and then block them?"</string>
+    <string name="CannotBlockOwnerOfSomeGroup">"You cannot block %1$s because they are the owner of %2$s. In order to block this person, you must remove yourself from their group."</string>
+    <string name="RemoveAndBlock">REMOVE AND BLOCK</string>
+    <string name="Block">Block</string>
+    <string name="NoInvitePermission">You don\'t have permissions to invite members to this group</string>
+    <string name="NoBlockedContacts">No Blocked Contacts</string>
+    <string name="InviteBySMS">Please connect with me here to share safely and privately. Let\'s MeWe! %s/start</string>
+    <string name="NoSMSApp">No sms application</string>
+    <string name="confirmContactFail">Unable to confirm contact</string>
+    <string name="declineContactFail">Unable to decline contact</string>
+
+    <!-- contacts invitations -->
+    <string name="InvitationsOkAlert">Successfully sent invitations</string>
+    <string name="InvitationOkButNotAll">You have successfully sent %s invitations. Other people probably are members in this group already.</string>
+    <string name="InvitationsNotSent">Invitations weren\'t send - probably all selected contacts has been already invited</string>
+    <string name="InvitationsFailed">Invitations sending failed - please try again in a moment</string>
+    <string name="RemovingContactFromGroupsFailed">Cannot remove this contact from your groups</string>
+    <string name="ContactToGroup">"contact to the group"</string>
+    <string name="ContactsToGroup">"contacts to the group"</string>
+    <string name="InvitePrivately">"Invite privately by %1$s (%2$s)"</string>
+    <string name="Phone">"phone"</string>
+    <string name="Email">"email"</string>
+    <string name="InviteContacts">Invite Contacts</string>
+    <string name="InviteContactsFromAddressBook">Invite by Text</string>
+    <string name="ShareLinkToFacebook">Share Link to Facebook</string>
+    <string name="PublicLinkDescription">You also have a personal link you can share to allow people ask you to be your Contact:</string>
+    <string name="InviteFromMeWeContacts">Invite From MeWe Contacts</string>
+    <string name="InviteByEmail">Invite by Email</string>
+    <string name="PleaseEnterEmails">Please enter email addresses, separated by commas:</string>
+    <string name="Invite">"Invite "</string>
+    <string name="NoEmails">Type at least one email you want to invite</string>
+    <string name="Search">Search</string>
+    <string name="addContactToGroupConfirmation">You will add %1$s contacts to %2$s</string>
+    <string name="YourPersonalLink">"Your Personal Link"</string>
+    <string name="MyContactsSubTitle">"My Contacts"</string>
+    <string name="InvitationComplete">"Invitation completed"</string>
+    <string name="ContactsInvitationPublicLinkText">"Let people apply to be Contacts with you by sharing your personal link:"</string>
+    <string name="By">by</string>
+    <string name="SendContactsRequest">"Ask to be Contacts with %s"</string>
+    <string name="UserNotFound">User not found.</string>
+    <string name="ItsYourPage">This is your page.</string>
+    <string name="YouAreAlreadyContacts">You are already contacts with this %s</string>
+    <string name="YouHaveInvitedThisUser">You have invited this user already.</string>
+    <string name="Remind">Remind</string>
+    <string name="Confirm">Confirm</string>
+    <string name="UserHasAlreadyInvitedYou">%s has already invited you before.</string>
+
+    <!-- contacts requests -->
+    <string name="ContactsRequestsTitle">"Contacts Requests"</string>
+
+    <!-- feedback_fragment -->
+    <string name="PleaseProvideFeedbackMessage">Please, provide feedback message</string>
+    <string name="FeedbackSentSuccess">Your feedback was sent successfully</string>
+    <string name="FeedbackWasNotSent">Your feedback wasn\'t sent - please try again</string>
+    <string name="FeedbackWelcome"> We’re private, not perfect. If you have any ideas about how to improve MeWe, we’d love to hear them."</string>
+    <string name="FeedbackCheckBox"> I would like a reply by email</string>
+
+    <!-- sliding menu -->
+    <string name="GroupForInvitationsLabel">CHOOSE GROUP TO INVITE MEMBERS</string>
+
+    <!-- edit post/comment -->
+    <string name="EditPostTitle">Edit Post</string>
+    <string name="editCommentTitle">Edit Comment</string>
+    <string name="EditPostError">Cannot update this post, please try again later…</string>
+    <string name="removePostError">Cannot remove this post, please try again later…</string>
+    <string name="removePostConfirm">Do you really want to remove this post?</string>
+    <string name="editCommentError">Cannot update this comment, please try again later…</string>
+    <string name="removeCommentError">Cannot remove this comment, please try again later…</string>
+    <string name="editUncreatedComment">This comment is in processing, please try in a couple of seconds…</string>
+    <string name="removeCommentConfirm">Do you really want to remove this comment?</string>
+    <string name="EditComment">"Edit Comment"</string>
+    <string name="RemoveComment">"Remove Comment"</string>
+    <string name="Comments">Comments</string>
+    <string name="EditPost">"Edit Post"</string>
+    <string name="RemovePost">"Remove Post"</string>
+    <string name="CheckingForNewContent">Checking for new content…</string>
+    <string name="CommentTextIsMissing">Please enter your comment.</string>
+    <string name="emptyPost">Post cannot be empty</string>
+    <string name="emptyComment">Comment cannot be empty</string>
+    <string name="GettingPostError">Cannot get post details</string>
+    <string name="GettingCommentError">Cannot get comment details</string>
+    <string name="removing">Removing…</string>
+    <string name="updating">Updating…</string>
+    <string name="timeAgo">time ago</string>
+    <string name="edited">edited:</string>
+    <string name="quoting">Quoting</string>
+    <string name="CommentsLoadingFailed">Cannot update comments, please check your Internet connection</string>
+
+    <!-- media picker -->
+    <string name="MediaDialogTitle">Choose Media File Source</string>
+    <string name="PhotoDialogTitle">Choose Image Source</string>
+    <string name="PhotoFromCamera">Take a Photo</string>
+    <string name="VideoFromCamera">Record a Video</string>
+    <string name="PhotoFromGallery">Pick photo from Gallery</string>
+    <string name="VideoFromGallery">Pick video from Gallery</string>
+    <string name="HaveNoCamera">"Looks like you don't have application for getting video from camera"</string>
+    <string name="HaveNoVideoCamera">"Looks like you don't have application for video recording"</string>
+    <string name="HaveNoCalendar">"Looks like you don't have calendar application"</string>
+
+    <!-- replies -->
+    <string name="ReplyEmply">Your message is empty</string>
+    <string name="ReplyWithQuote">"Reply with Quote"</string>
+    <string name="JustNow">just now</string>
+
+    <!-- new discussion -->
+    <string name="NewDiscussionFieldsEmpty">Fill all fields please.</string>
+    <string name="Uploaded">Uploaded</string>
+
+    <!-- remove discussion -->
+    <string name="removeDiscussionConfirm">Do you really want to remove this discussion?</string>
+    <string name="removeDiscussionError">Cannot remove this discussion, please try again later…</string>
+
+    <!-- video_activity -->
+    <string name="apiLevelAlert">Video streaming is not supported on your device</string>
+    <string name="videoOffline">You cannot watch video in offline mode</string>
+    <string name="cantPlayVideo">Can\'t play this video</string>
+
+    <!-- sms -->
+    <string name="SmsInviting">"Hi, I'd like to invite you to MeWe: "</string>
+
+    <!-- public link -->
+    <string name="WelcomeTo">"! Welcome to "</string>
+    <string name="RestTextToGenerateLink">" Group! Click the button below to generate link and invite people to your group so you can stay connected."</string>
+    <string name="HaveNoEmail">"Looks like you don't have application for email sending"</string>
+    <string name="SendMail">"Send email…"</string>
+    <string name="InvitationLink">"Invitation link: "</string>
+    <string name="SgrouplesInvitation">"MeWe invitation"</string>
+    <string name="HaveNoSms">"Looks like you don't have application for SMS sending"</string>
+    <string name="HaveNoBrowser">"Looks like you don't have application for link browsing"</string>
+    <string name="CopiedToClipboard">"Link copied to clipboard"</string>
+
+    <!-- members -->
+    <string name="WantsToJoin">"%1$s wants to join <b>%2$s</b>"</string>
+    <string name="InviteFromContacts">Invite from MeWe Contacts</string>
+    <string name="MembersFTUE">Looks like you don’t have any members in this group yet.  Let’s change that!</string>
+
+    <plurals name="InvitedToGroup">
+        <item quantity="one">1 invitation sent</item>
+        <item quantity="other">"%d invitations sent"</item>
+    </plurals>
+
+    <string name="InviteGroupMembers">Invite Group Members</string>
+    <string name="MemberPublicLinkDescription">Your group also has a personal link you can share to allow people ask to join:</string>
+    <string name="inviteMembers">Invite Members</string>
+    <string name="approveMemberApplicationFail">Unable to approve this application</string>
+    <string name="rejectMemberApplicationFail">Unable to reject this application</string>
+
+    <!-- messages -->
+    <string name="ByClickingYouAgree">"By clicking \"Sign Up\" you agree to MeWe' Terms of Service"</string>
+
+    <!-- messages -->
+    <string name="Pending">"pending…"</string>
+    <string name="AndMore">"…%d more"</string>
+
+    <!-- comments -->
+    <string name="ShowEarlier">Show %s earlier comment</string>
+    <string name="ShowComment">Show comment</string>
+    <string name="ShowComments">Show comments</string>
+
+    <!-- loves -->
+    <string name="YouLove">"You love it"</string>
+    <string name="YouAndOneLoves">"You and 1 person loves it"</string>
+    <string name="YouAndPeopleLove">"You and %1$s people love it"</string>
+    <string name="OnePersonLoves">"1 person loves it"</string>
+    <string name="PeopleLove">"%1$s people love it"</string>
+
+    <!-- likes -->
+    <string name="YouLike">"You like it"</string>
+    <string name="YouAndOneLikes">"You and 1 person likes it"</string>
+    <string name="YouAndPeopleLike">"You and %1$s people like it"</string>
+    <string name="OnePersonLikes">"1 person likes it"</string>
+    <string name="PeopleLike">"%1$s people like it"</string>
+
+    <!-- events -->
+    <string name="EventAt">"Event: \"%1$s\" at %2$s"</string>
+    <string name="AllDay">"All day: %s"</string>
+    <string name="StartDate">"Start date: %s"</string>
+    <string name="EndDate">"End date: %s"</string>
+
+    <!-- discussions -->
+    <string name="StartedDiscussion">"started a Discussion:"</string>
+    <string name="RepliedTo">"replied to the Discussion:"</string>
+    <string name="Delete">Delete</string>
+    <string name="Replies">Replies(%s)</string>
+    <string name="DiscussionsAreEmpty">There are no discussions in this group yet. Let’s start one!</string>
+    <string name="StartDiscussion">Start Discussion</string>
+
+    <!-- Notifications -->
+    <string name="SendError">"Send error: "</string>
+    <string name="DeletedOnServer">"Deleted messages on server: "</string>
+    <string name="FileDownload">"File Download"</string>
+
+    <!-- Post wrappers -->
+    <string name="NewPost">%s new post</string>
+    <string name="NewPosts">%s new posts</string>
+
+    <!-- Audio player -->
+    <string name="audioLoadingFailed">Cannot load this audio, please check try again later</string>
+
+    <!-- Pull to refresh -->
+    <string name="pull_to_refresh">Pull to refresh</string>
+
+    <!-- User Profile -->
+    <string name="UserProfile">User Profile</string>
+    <string name="PostDiscussionToGroup">Share your discussion with:</string>
+    <string name="PostPostToGroup">Share your post with:</string>
+    <string name="SendMessage">Send Message</string>
+    <string name="InviteToBeContact">Invite to be Contact</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

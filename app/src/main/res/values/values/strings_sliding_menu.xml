@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MEWE MAIN -->
+    <string name="MyWorld">My World</string>
+    <string name="MyCloud">My Cloud</string>
+    <string name="MyContacts">My Contacts</string>
+
+    <!-- GROUPS -->
+    <string name="YouHaveBeenInvited">You\'ve been invited to</string>
+
+    <!-- GLOBAL SETTINGS -->
+    <string name="Logout">Logout</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Settings">Settings</string>
+    <string name="Account">Account</string>
+    <string name="AccountSettings">Account Settings</string>
+    <string name="Notifications">Notifications</string>
+    <string name="NotificationSettings">Notification Settings</string>
+
+
+</resources>

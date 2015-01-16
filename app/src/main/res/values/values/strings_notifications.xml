@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TurnOnOffNotifications">Turn ON/OFF All MeWe Notifications</string>
+    <string name="TapToTurnOnOf">Tap a phone to turn notification on or off</string>
+    <string name="InvitationRequests">Invitation Requests</string>
+    <string name="ChatMessages">Chat Messages</string>
+    <string name="MWAndGroups">My World and Groups</string>
+    <string name="SelectAll">Select All</string>
+    <string name="Likes">Likes</string>
+    <string name="Posts">Posts</string>
+    <string name="GroupChat">Groups Chat</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ChangePassword">CHANGE PASSWORD</string>
+    <string name="CurrentPassword">Current password</string>
+    <string name="NewPassword">New password</string>
+    <string name="ConfirmPassword">Confirm password</string>
+    <string name="PaswordDoesNotChanged">Password does not changed. Please check data</string>
+</resources>

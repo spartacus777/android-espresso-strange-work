@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="LabelValidateEmail">Validate your email</string>
+    <string name="WeReSorry">WE\'RE SORRY!</string>
+    <string name="YourAccountNotConfirmed">Your account has not been confirmed yet.</string>
+    <string name="Please">Please</string>
+    <string name="ClickHere">Click here</string>
+    <string name="ExplainText">to receive a new confirmation email from us. The email you will receive contains a confirmation link. Simply click on that link to validate your account at MeWe.\n\nThank You!</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LabelLogin">Log in to MeWe</string>
+    <string name="EmailOrPasswordIncorrrect">Email or password incorrect - please try again.</string>
+    <string name="PhoneOrPasswordIncorrrect">Phone number or password incorrect - please try again.</string>
+    <string name="SmthWentWrong">We\'re sorry, something went wrong</string>
+    <string name="LimitReached">Limit is reached - please try again later.</string>
+    <string name="NotFoundOrAlreadyRegistered">Probably you are already registered.</string>
+    <string name="NotFoundOrAlreadyRegisteredPhone">Probably you already registered your phone number.</string>
+</resources>

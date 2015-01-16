@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="duration_offset">100</integer>
+    <integer name="duration_long">1000</integer>
+    <integer name="duration_longer">2000</integer>
+    <integer name="defaultDuration">100</integer>
+    <integer name="shortDuration">60</integer>
+    <integer name="mediumDuration">500</integer>
+    <integer name="dismissDuration">400</integer>
+    <integer name="growRecordButton">100</integer>
+
+    <!-- Animation drawables -->
+    <integer name="loadingAnimationFrameDuration">30</integer>
+
+    <!-- Tag id's -->
+    <integer name="avatarUrlTagId">100000</integer>
+</resources>
